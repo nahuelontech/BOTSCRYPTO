@@ -1,5 +1,5 @@
 VIDEOS FROM CODEWITHJOE....  EN GENERAL SUS VIDEOS SON ORO, así como dapp university, eattheblocks...
-
+TODOS VIDEOS VISTOS.
 
 Working on testnet, replace values with addresses for any Uniswap Fork!!
 
