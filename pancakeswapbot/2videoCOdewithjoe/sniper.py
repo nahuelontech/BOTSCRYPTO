@@ -53,7 +53,7 @@ def buy():
 
 
 # define function to handle events and print to the console
-def handle_event(event):
+def handle_event(event): 
     #print(Web3.toJSON(event))
     # and whatever
     pair = Web3.toJSON(event)
@@ -88,7 +88,7 @@ def handle_event(event):
 # asynchronous defined function to loop
 # this loop sets up an event filter and is looking for new entires for the "PairCreated" event
 # this loop runs on a poll interval
-async def log_loop(event_filter, poll_interval):
+async def log_loop(event_filter, poll_interval): #Once the event from def main is meet, we get here the output for the event filter, so we run here an asynchronous function 
     while True:
         for PairCreated in event_filter.get_new_entries():
             handle_event(PairCreated)
@@ -100,7 +100,7 @@ async def log_loop(event_filter, poll_interval):
 # run an async loop
 # try to run the log_loop function above every 2 seconds
 def main():
-    event_filter = contract.events.PairCreated.createFilter(fromBlock='latest')
+    event_filter = contract.events.PairCreated.createFilter(fromBlock='latest') #This filter listens for created pairs on the pancake swap factory address 
     #block_filter = web3.eth.filter('latest')
     # tx_filter = web3.eth.filter('pending')
     loop = asyncio.get_event_loop()
