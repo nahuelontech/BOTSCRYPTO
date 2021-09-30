@@ -1,4 +1,4 @@
-VIDEOS FROM CODEWITHJOE....
+VIDEOS FROM CODEWITHJOE....  EN GENERAL SUS VIDEOS SON ORO, así como dapp university, eattheblocks...
 
 
 Working on testnet, replace values with addresses for any Uniswap Fork!!
@@ -12,4 +12,8 @@ all the current addresses are put in for the BSC Testnet, paste the address of W
 It currently just executes a trade of 100 BUSD for however many WBNB!
 
 https://www.youtube.com/watch?v=a_NAnq5-CYI
-Ç
+
+Others links from his yt channel:
+https://www.youtube.com/watch?v=pKxLmuIhM7g
+How to avoid honey pots : https://www.youtube.com/watch?v=Z99TEXL3gmQ and also teaches how they rug
+
